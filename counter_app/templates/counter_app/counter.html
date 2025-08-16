@@ -1,0 +1,17 @@
+<!-- counter_app/templates/counter_app/counter.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="utf-8">
+    <title>カウンターPoC</title>
+</head>
+<body>
+    <h1>カウンター PoC</h1>
+    <P>現在のカウント: {{count}}</P>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">カウントアップ</button>
+    </form>
+</body>
+</html>
