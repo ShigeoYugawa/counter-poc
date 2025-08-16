@@ -49,7 +49,7 @@ python manage.py test counter_app
 ## デモ
 - 動作GIFやWebMをここに追加可能
 ```markdown
-![Demo](path/to/demo.gif)
+![Demo](assets/demo.gif)
 ```
 
 ## 注意
