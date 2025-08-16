@@ -1,10 +1,10 @@
 # counter_app/views.py
 
 from django.shortcuts import render
-from django.http import HttpRequest
+from django.http import HttpRequest, HttpResponse
 
 
-def counter_view(request: HttpRequest) -> HttpRequest:
+def counter_view(request: HttpRequest) -> HttpResponse:
     """
     セッションからカウント値を取得し、ボタン押下時に1ずつ増加させるビュー。
 
