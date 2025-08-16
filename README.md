@@ -47,7 +47,6 @@ python manage.py test counter_app
 ```
 
 ## デモ
-- 動作GIFやWebMをここに追加可能
 ![Image](https://github.com/user-attachments/assets/2593e168-25a8-4e0f-9c28-9a49c271ebd4)
 
 
