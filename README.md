@@ -49,7 +49,7 @@ python manage.py test counter_app
 ## デモ
 - 動作GIFやWebMをここに追加可能
 ```markdown
-![Demo](https://github.com/ShigeoYugawa/counter-poc/blob/main/assets/demo.gif?raw=true)
+![Demo]![Image](https://github.com/user-attachments/assets/2593e168-25a8-4e0f-9c28-9a49c271ebd4?raw=true)
 ```
 
 ## 注意
