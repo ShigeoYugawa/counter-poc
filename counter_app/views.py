@@ -6,7 +6,10 @@ from django.http import HttpRequest
 
 def counter_view(request: HttpRequest) -> HttpRequest:
     """
-    セッションから値を取得してカウントする
+    セッションからカウント値を取得し、ボタン押下時に1ずつ増加させるビュー。
+
+    - GETリクエスト: 現在のカウントを表示
+    - POSTリクエスト: カウントを1増やして再表示
     """
     
     count: int = request.session.get('count', 0)
