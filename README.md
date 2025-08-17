@@ -23,6 +23,15 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install django
 ```
+3. Django プロジェクト作成
+```bash
+django-admin startproject counter
+cd counter
+```
+4. Django アプリ作成
+```bash
+python manage.py startapp counter_app
+```
 3. データベースマイグレーション
 ```bash
 python manage.py migrate
